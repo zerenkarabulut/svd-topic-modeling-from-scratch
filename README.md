@@ -31,6 +31,7 @@ The core SVD computation does not use `numpy.linalg.svd` or built-in eigendecomp
 ![Singular Value Decay](results/singular_value_decay.png)
 
 This visualization shows the decay of singular values and the cumulative fraction of the original matrix's energy retained by successive components.
+The singular value decay and energy retention plots were generated using 400 components, while the reconstruction error analysis reports ranks up to 50.
 
 ### Reconstruction Error
 
